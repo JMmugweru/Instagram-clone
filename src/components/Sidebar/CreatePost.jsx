@@ -96,6 +96,7 @@ const CreatePost = () => {
 						{selectedFile && (
 							<Flex mt={5} w={"full"} position={"relative"} justifyContent={"center"}>
 								<Image src={selectedFile} alt='Selected img' />
+								
 								<CloseButton
 									position={"absolute"}
 									top={2}
